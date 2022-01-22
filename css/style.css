@@ -126,7 +126,7 @@
     z-index: -1;
 }
 
-/* Media Queries */
+/* Media Queries For Home*/
 @media screen and (max-width: 480px) {
 
     /*Home*/
@@ -203,11 +203,101 @@
         z-index: -1;
         transition: transform 2s;
     }
+}
 
-    .hulk-img:hover {
-        box-shadow: 2px 4px 6px 3px rgba(25, 156, 25, 0.699), 8px 6px 20px 4px rgba(214, 57, 51, 0.692);
-        /* width: 530px; */
-        transform: rotateY(360deg);
+/* About */
+.avg-img {
+    width: 100%;
+    height: 45vw;
+    border-radius: 100%;
+    box-shadow: 2px 4px 6px 3px rgba(255, 255, 255, 0.171), 8px 6px 20px 4px rgba(255, 253, 253, 0.466);
+    z-index: -1;
+    transition: transform 10s;
+}
+
+.avg-img:hover {
+    box-shadow: 2px 4px 6px 3px rgba(25, 156, 25, 0.699), 8px 6px 20px 4px rgba(214, 57, 51, 0.692);
+    /* width: 530px; */
+    transform: rotateY(360deg);
+    z-index: -1;
+}
+
+.welcome-txt {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: -30%;
+    color: transparent;
+    width: 420px;
+    height: 368px;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    /* line-height: 455px; */
+    -webkit-text-stroke: 0.81px white;
+    text-stroke: 1px white;
+}
+
+.conn-txt {
+    position: absolute;
+    margin-top: 26%;
+    margin-left: 5%;
+    color: transparent;
+    width: 420px;
+    height: 368px;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    /* line-height: 455px; */
+    -webkit-text-stroke: 0.81px white;
+    text-stroke: 1px white;
+}
+
+.iconss:hover {
+    color: orange;
+}
+
+/* Media Queries For About*/
+@media screen and (max-width: 480px) {
+    .avg-img {
+        width: 100%;
+        height: 45vw;
+        border-radius: 100%;
+        box-shadow: 2px 4px 6px 3px rgba(255, 255, 255, 0.171), 8px 6px 20px 4px rgba(255, 253, 253, 0.466);
         z-index: -1;
+        transition: transform 10s;
+    }
+
+    .welcome-txt {
+        margin-top: 10%;
+        margin-left: -30%;
+        margin-right: 10%;
+        color: transparent;
+        /* width: 420px;
+        height: 368px; */
+        font-family: Oxygen;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        /* line-height: 455px; */
+        -webkit-text-stroke: 0.2px white;
+        text-stroke: 1px white;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    .conn-txt {
+        position: absolute;
+        margin-top: 30%;
+        margin-left: -50%;
+        color: #111;
+        font-family: Oxygen;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        /* line-height: 455px; */
+        -webkit-text-stroke: 0.2px white;
+        text-stroke: 1px white;
     }
 }
