@@ -1,0 +1,213 @@
+/*Navbar*/
+.navbar {
+    /* overflow-x: hidden; */
+    background-color: #111;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.nav-link {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: #ddd;
+    color: orange;
+    border-radius: 50%;
+    box-shadow: 2px 4px 6px 3px rgba(100, 99, 98, 0.699), 8px 6px 20px 4px rgba(155, 151, 151, 0.692);
+    ;
+}
+
+.logo {
+    border-radius: 100%;
+    box-shadow: 2px 4px 6px 3px rgba(255, 255, 255, 0.171), 8px 6px 20px 4px rgba(255, 253, 253, 0.466);
+}
+
+.logo:hover {
+    box-shadow: 2px 4px 6px 3px rgba(60, 28, 201, 0.699), 8px 6px 20px 4px rgba(214, 57, 51, 0.692);
+}
+
+.dropdown-item, .dropdown-menu {
+    background-color: rgb(44, 37, 37);
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: #111;
+    color: orange;
+}
+
+/*Home*/
+.home {
+    background-color: #111;
+    height: 100%;
+}
+
+.p {
+    position: absolute;
+    color: transparent;
+    margin-top: 6.9%;
+    margin-left: -17.1%;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 360px;
+    line-height: 455px;
+    -webkit-text-stroke: 4px white;
+    text-stroke: 4px white;
+}
+
+.rem {
+    position: absolute;
+    margin-top: 12.9%;
+    margin-left: -17.1%;
+    color: transparent;
+    width: 420px;
+    height: 368px;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 90px;
+    line-height: 455px;
+    -webkit-text-stroke: 4px white;
+    text-stroke: 4px white;
+}
+
+.b {
+    position: absolute;
+    color: transparent;
+    margin-top: 6.9%;
+    margin-left: -4.1%;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 360px;
+    line-height: 455px;
+    -webkit-text-stroke: 4px white;
+    text-stroke: 4px white;
+}
+
+.arve {
+    position: absolute;
+    margin-top: 12.1%;
+    margin-left: 3.5%;
+    color: transparent;
+    width: 420px;
+    height: 368px;
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 90px;
+    line-height: 455px;
+    -webkit-text-stroke: 4px white;
+    text-stroke: 4px white;
+}
+
+.hulk-img {
+    width: 100%;
+    height: 45vw;
+    border-radius: 100%;
+    box-shadow: 2px 4px 6px 3px rgba(255, 255, 255, 0.171), 8px 6px 20px 4px rgba(255, 253, 253, 0.466);
+    z-index: -1;
+    transition: transform 2s;
+}
+
+.hulk-img:hover {
+    box-shadow: 2px 4px 6px 3px rgba(25, 156, 25, 0.699), 8px 6px 20px 4px rgba(214, 57, 51, 0.692);
+    /* width: 530px; */
+    transform: rotateY(360deg);
+    z-index: -1;
+}
+
+/* Media Queries */
+@media screen and (max-width: 480px) {
+
+    /*Home*/
+    .home {
+        background-color: #111;
+        height: 100%;
+    }
+
+    .p {
+        position: absolute;
+        color: transparent;
+        margin-top: -15%;
+        margin-left: -8%;
+        font-family: Oxygen;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 60px;
+        line-height: 455px;
+        -webkit-text-stroke: 1px white;
+        text-stroke: 1px white;
+    }
+
+    .rem {
+        position: absolute;
+        margin-top: -10%;
+        margin-left: -58%;
+        color: transparent;
+        width: 420px;
+        height: 368px;
+        font-family: Oxygen;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 455px;
+        -webkit-text-stroke: 0.81px white;
+        text-stroke: 1px white;
+    }
+
+    .b {
+        position: absolute;
+        color: transparent;
+        margin-top: -15%;
+        margin-left: -10%;
+        font-family: Oxygen;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 60px;
+        line-height: 455px;
+        -webkit-text-stroke: 1px white;
+        text-stroke: 1px white;
+    }
+
+    .arve {
+        position: absolute;
+        margin-top: -12.1%;
+        margin-left: -53%;
+        color: transparent;
+        width: 420px;
+        height: 368px;
+        font-family: Oxygen;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 455px;
+        -webkit-text-stroke: 0.81px white;
+        text-stroke: 1px white;
+    }
+
+    .hulk-img {
+        width: 100%;
+        height: 100vw;
+        border-radius: 100%;
+        box-shadow: 1px 3px 5px 2px rgba(255, 255, 255, 0.171), 6px 4px 18px 2px rgba(255, 253, 253, 0.466);
+        z-index: -1;
+        transition: transform 2s;
+    }
+
+    .hulk-img:hover {
+        box-shadow: 2px 4px 6px 3px rgba(25, 156, 25, 0.699), 8px 6px 20px 4px rgba(214, 57, 51, 0.692);
+        /* width: 530px; */
+        transform: rotateY(360deg);
+        z-index: -1;
+    }
+}
